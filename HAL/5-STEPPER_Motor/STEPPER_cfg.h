@@ -1,0 +1,13 @@
+#ifndef STEPPER_CFG_H
+#define STEPPER_CFG_H
+
+#define STEPPER_u8PORT				DIO_PORTC
+
+#define STEPPER_u8BLUE				DIO_PIN0
+#define STEPPER_u8PINK				DIO_PIN1
+#define STEPPER_u8YELLOW			DIO_PIN6
+#define STEPPER_u8ORANGE			DIO_PIN7
+
+#define STP_DELAY					2u
+
+#endif
