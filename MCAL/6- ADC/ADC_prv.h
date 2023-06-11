@@ -15,10 +15,12 @@
 #define DIVISION_BY_64					6u
 #define DIVISION_BY_128					7u
 
+/*ADC Global Flag Type*/
 #define IDLE							0u
 #define BUSY							1u
-
-
+/*ADC Synch Type*/
+#define SINGLE_ASYNCH					0u
+#define CHAIN_ASYNCH					1u
 
 
 #endif
