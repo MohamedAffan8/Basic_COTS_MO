@@ -1,0 +1,25 @@
+#ifndef SSD_CFG_H
+#define SSD_CFG_H
+
+#define SSD_NO							TWO_SSD
+
+#define SSD_u8COM						DIO_PORTC
+#define SSD_u8C6_PIN					DIO_PIN6
+#define SSD_u8C7_PIN					DIO_PIN7
+
+#define SSD_u8DIGIT_PORT				DIO_PORTA
+#define SSD_u8A1_PIN					DIO_PIN1
+#define SSD_u8A2_PIN					DIO_PIN2
+#define SSD_u8A3_PIN					DIO_PIN3
+#define SSD_u8A4_PIN					DIO_PIN4
+#define SSD_u8A5_PIN					DIO_PIN5
+#define SSD_u8A6_PIN					DIO_PIN6
+#define SSD_u8A7_PIN					DIO_PIN7
+#define SSD_u8DOT_PORT					DIO_PORTB
+#define SSD_u8B0_PIN					DIO_PIN1
+
+#define SSD_u8DIGIT_ARR			{0b00111111,0b00000110,0b01011011,0b01001111,0b01100110,0b01101101,0b01111101,0b00000111,0b01111111,0b01101111}
+
+#define SSD_u8NO_PRESSED_KEY_VAL	0xff
+
+#endif
